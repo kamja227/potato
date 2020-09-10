@@ -1,0 +1,12 @@
+package com.bit.spring.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class Ex05Controller {
+
+	@RequestMapping()
+	public String ex05() {
+		return "ex05";
+	}
+}

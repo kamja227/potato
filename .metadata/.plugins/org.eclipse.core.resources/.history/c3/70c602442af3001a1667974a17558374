@@ -1,0 +1,10 @@
+package com.bit.spring.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class Ex07Controller {
+
+	@RequestMapping("/ex08")
+	public void ex01() {}
+}

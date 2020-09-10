@@ -1,0 +1,5 @@
+package com.bit.spring.model.entity;
+
+public class TestBean {
+
+}

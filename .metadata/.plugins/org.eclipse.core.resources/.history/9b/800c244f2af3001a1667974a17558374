@@ -1,0 +1,15 @@
+package com.bit.spring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Ex07Controller {
+
+	// view가 없는 경우, 무엇이든 return을 해줘야만 한다.
+	@RequestMapping("/ex08")
+//	public void ex01() {} // error.
+	public String ex01() {
+		return null;
+	}
+}

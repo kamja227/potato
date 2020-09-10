@@ -1,0 +1,12 @@
+package com.bit.spring.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class Ex03Controller {
+
+	@RequestMappiing("/ex03") // 확장자를 wild로 지정해놓았기 때문에 따로 지정하지 않아도 된다.
+	public ModelAndView ex03() {
+		return new ModelAndView("hello")
+	}
+}

@@ -1,0 +1,15 @@
+package com.bit.spring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Ex05Controller {
+
+	@RequestMapping("/ex05")
+//	public String ex05() {
+//		return "ex05";
+//	}
+	
+	pubic void ex01() {}
+}

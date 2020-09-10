@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/ziwookim/workspace-sts/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+463678523.index
+318498190.index
+3308804948.index
+1458985080.index
+900187601.index
+1831180645.index
+3126449174.index

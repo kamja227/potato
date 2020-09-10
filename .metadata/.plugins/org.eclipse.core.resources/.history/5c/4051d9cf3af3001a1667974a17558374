@@ -1,0 +1,9 @@
+package com.bit.spring.model.entity;
+
+public class DeptVo {
+	private int deptno;
+	private String dname, loc;
+	
+	public DeptVo() {
+	}
+}

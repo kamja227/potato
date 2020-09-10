@@ -1,0 +1,8 @@
+package com.bit.spring.model;
+
+public class DeptDaoImpl {
+
+	public List<DeptVo> selectAll() throws SQLException {
+		return null;
+	}
+}

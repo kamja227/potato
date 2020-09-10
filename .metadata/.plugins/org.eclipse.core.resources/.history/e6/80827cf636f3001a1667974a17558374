@@ -1,0 +1,10 @@
+package com.bit.spring.model.entity;
+
+public class TestBean {
+	int sabun;
+	String name;
+	
+	public TestBean() {
+		
+	}
+}

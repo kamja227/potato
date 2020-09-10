@@ -1,0 +1,37 @@
+package com.bit.spring.controller;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Ex09Controller {
+
+	@RequestMapping("/ex09")
+	public String ex09() {
+		System.out.println("arg 없음");
+		return "ex09";
+	}
+	
+	@RequestMapping("/ex10")
+	public String ex08(HttpServletRequest req) {
+		String id = req.getParameter("id");
+		System.out.println("id:" + id);
+		req.setAttribute("id", id);
+		return "ex09";
+	}
+	
+	@RequestMapping("/ex11")
+	public String ex07(HttpServletRequest req, Model model) {
+//	public String ex07(Model model, HttpServletRequest req) {
+		model.addAttribute("id", req.getParameter("id"));
+		
+//		String id = req.getParameter("id");
+//		System.out.println("id:" + id);
+////		req.setAttribute("id", id);	
+//		model.addAttribute("id", id);
+		return "ex09";
+	}
+}

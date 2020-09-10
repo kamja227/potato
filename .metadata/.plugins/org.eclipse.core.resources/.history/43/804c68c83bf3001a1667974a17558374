@@ -1,0 +1,24 @@
+package com.bit.spring.model;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.bit.spring.model.entity.DeptVo;
+
+public class DeptDaoImpl implements DeptDao {
+
+	@Override
+	public List<DeptVo> selectAll() throws SQLException {
+		try(
+				Connection conn = null;
+				PreparedStatement pstmt = conn.prepareStatement("select * from dept");
+				ResultSet rs = pstmt.executeQuery();
+				
+		){
+			
+		}
+		return null;
+	}
+}
